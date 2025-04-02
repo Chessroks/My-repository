@@ -1,6 +1,7 @@
 # My-repository
 Equip Coding Class Project
 This is so cool!!
+<DOCTYPE html lang="en">
 <html>
   <head>
     <title> 2-Player Tic Tac Toe</title>
