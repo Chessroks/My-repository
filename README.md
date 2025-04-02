@@ -22,6 +22,10 @@ const PLAYER_O = "O";
 const board = document.getELementById("board");
 let playerName = PLAYER_X;
 
+function loseGame() {
+  return "You won!"
+}
+
 function makeColumnHtml(id, marker) {
 return `<td id="${id}" onclick="cellClick(this)">[${marker}]</td>`;
 }
