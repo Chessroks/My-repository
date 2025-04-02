@@ -23,7 +23,7 @@ const PLAYER_O = "O";
 const board = document.getELementById("board");
 let playerName = PLAYER_X;
 
-function loseGame() {
+function winGame() {
   return "You won!"
 }
 
@@ -64,4 +64,20 @@ board.innerHTML = boardHtml;
 }
 
 init();
+
+const bricks = [];
+for (let c = 0; c < brickColumnCount; c++) {
+    bricks[c] = [];
+    for (let r = 0; r < brickRowCount; r++) {
+        bricks[c][r] = {x: 0, y: 0, status: 1};
+    }
+}
+
+if(winGame()) {
+  winGame();
+}
+
+if(c && r) {
+  
+}
 
